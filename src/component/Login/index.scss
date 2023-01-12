@@ -1,0 +1,23 @@
+.form-area {
+  .box {
+    margin: 20px;
+  }
+  .content {
+    display: block;
+    min-width: 0px;
+    width: 220px;
+    padding: 14px;
+  }
+  .submit-btn {
+    border: 1px solid rgba(25, 118, 210, 0.5);
+    color: rgb(25, 118, 210);
+    background: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.75;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+}
