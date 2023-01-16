@@ -11,10 +11,10 @@ export default function App() {
           listStyle: "none",
         }}>
           <li>
-            <Link to={"cards"}>Card</Link>
+            <Link to={"/"}>Login Form</Link>
           </li>
           <li style={{ marginLeft: "20px" }}>
-            <Link to={"login"}>Login Form</Link>
+            <Link to={"/cards"}>Card</Link>
           </li>
         </ol>
       </nav>

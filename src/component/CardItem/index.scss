@@ -1,0 +1,42 @@
+.card {
+  border: 1px solid #0080ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  margin-left: 0;
+  text-align: center;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: #d7c6e32e;
+  }
+
+  &:active {
+    background-color: #b89acd4d;
+  }
+}
+
+.card-title {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.card-del-btn {
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

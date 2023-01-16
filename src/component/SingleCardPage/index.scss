@@ -1,11 +1,10 @@
-.card-panel {
+.single-card-page {
   margin: 20px;
-  min-width: 900px;
-  .card-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+  div {
+    margin-bottom: 20px;
   }
+
   button {
     border: 1px solid #1e80ff;
     color: #1e80ff;

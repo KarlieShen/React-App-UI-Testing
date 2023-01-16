@@ -42,6 +42,7 @@ function LoginForm(props: Props) {
       <div className='box'>
         <label htmlFor="username">Username:</label>
         <input
+          placeholder="input username"
           type="text"
           name="username"
           className='content'

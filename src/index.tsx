@@ -5,6 +5,7 @@ import App from "./App";
 import ErrorPage from "./component/ErrorPage";
 import Cards from "./component/Card";
 import Login from "./component/Login";
+import SingleCard from "./component/SingleCardPage";
 // import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -15,14 +16,18 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
+        path: "",
+        element: <Login />,
+      },
+      {
         path: "cards",
         element: <Cards />,
       },
-      {
-        path: "login",
-        element: <Login />,
-      },
     ]
+  },
+  {
+    path: "cards/:cardId",
+    element: <SingleCard />,
   },
 ]);
 
